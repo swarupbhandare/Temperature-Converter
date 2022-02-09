@@ -1,0 +1,38 @@
+#convert {
+    background-color: #eff309;
+  }
+  #convert:hover {
+    background-color: #01fa71;
+  }
+  h1 {
+    font-family: sans-serif;
+    color: #f30b0b;
+  }
+  input {
+    display: block;
+    padding: 30px;
+    margin:right 30px;
+    font-size: 3em;
+    color: #f4a55a;
+    font-family: cursive, sans-serif;
+  }
+  ::-webkit-input-placeholder {
+     color: #ccc;
+  }
+  :-moz-placeholder { /* Firefox 18- */
+     color: #ccc;  
+  }
+  ::-moz-placeholder {  /* Firefox 19+ */
+     color: rgb(199, 243, 4);  
+  }
+  :-ms-input-placeholder {  
+     color: rgb(141, 6, 252);  
+  }
+  button {
+    padding: 10px;
+    font-size: 1.2em;
+    color: #ff0909;
+    position:absolute;
+    top:50%;
+    left:45%
+  }
